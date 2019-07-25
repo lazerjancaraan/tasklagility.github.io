@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Tasks Lagility - Dashboard</title>
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom fonts for this template-->
+  <link href="assets/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+  <!-- Custom styles for this template-->
+  <link href="assets/css/sb-admin-2.css" rel="stylesheet">
+</head>
+
+<body id="page-top">
+  <!-- Page Wrapper -->
+  <div id="wrapper">
+    <!-- Sidebar -->
+    <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+      <!-- Sidebar - Brand -->
+      <a class="sidebar-brand d-flex align-items-center justify-content-center " href="index.html" >
+        <div class="sidebar-brand-icon ">
+          <!-- <i class="fas fa-laugh-wink"></i> -->
+          <img src="https://home.lagility-tasks.com/wp-content/uploads/2019/07/eval-logo-checkpng.png" alt="Tasks Lagility" height="50" width="85">
+        </div>
+        <div class="sidebar-brand-text">Tasks&nbsp;Lagility&nbsp;</div>
+      </a>
+      <!-- Divider -->
+      <hr class="sidebar-divider my-0">
+      <!-- Nav Item - Dashboard -->
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">
+          <i class="fas fa-fw fa-tachometer-alt"></i>
+          <span>Dashboard</span></a>
+      </li>
+      <!-- Divider -->
+      <hr class="sidebar-divider">
+      <!-- Heading -->
+      <div class="sidebar-heading">
+        Workgroups
+      </div>
+       <!-- Nav Item - Team -->
+      <li class="nav-item">
+        <a class="nav-link" href="team.html">
+          <i class="fas fa-fw fa-users"></i>
+          <span>Team</span></a>
+      </li>
+      <!-- Nav Item - Tasks -->
+      <li class="nav-item">
+        <a class="nav-link" href="tasks.html">
+          <i class="fas fa-fw fa-tasks"></i>
+          <span>Tasks</span></a>
+      </li>
+       <!-- Nav Item - Projects -->
+      <li class="nav-item">
+        <a class="nav-link" href="project.html">
+          <i class="fas fa-fw fa-book"></i>
+          <span>Projects</span></a>
+      </li>
+       <!-- Nav Item - Schedule -->
+      <li class="nav-item">
+        <a class="nav-link" href="calendar.html">
+          <i class="fas fa-fw fa-calendar"></i>
+          <span>Schedule</span></a>
+      </li>
+      <!-- Divider -->
+      <hr class="sidebar-divider">
+
+      <!-- Heading -->
+      <div class="sidebar-heading">
+        Communications
+      </div>
+
+      <!-- Nav Item - Conversations -->
+      <li class="nav-item">
+        <a class="nav-link" href="conversations.html">
+          <i class="fas fa-fw fa-comments"></i>
+          <span>Conversations</span></a>
+      </li>
+      <!-- Divider -->
+      <hr class="sidebar-divider d-none d-md-block">
+
+    <!-- Nav Item - Adminastrator -->
+      <li class="nav-item">
+        <a class="nav-link" href="admin.html">
+          <i class="fas fa-fw fa-user-secret"></i>
+          <span>Adminastrator</span></a>
+      </li>
+      <!-- Sidebar Toggler (Sidebar) -->
+      <div class="text-center d-none d-md-inline">
+        <button class="rounded-circle border-0" id="sidebarToggle"></button>
+      </div>
+
+    </ul>
+    <!-- End of Sidebar -->
+<!-- Content Wrapper -->
+    <div id="content-wrapper" class="d-flex flex-column">
+      <!-- Main Content -->
+      <div id="content">
+        <!-- Topbar -->
+        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+          <!-- Sidebar Toggle (Topbar) -->
+          <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+            <i class="fa fa-bars"></i>
+          </button>
+          <ul class="navbar-nav ml-auto">
+            <!-- Nav Item - Team Member Requests -->
+            <li class="nav-item dropdown no-arrow mx-1">
+              <a class="nav-link dropdown-toggle" href="" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-users fa-fw"></i>
+                <!-- Counter - Alerts -->
+                <span class="badge badge-danger badge-counter">2</span>
+              </a>
+              <!-- Dropdown - Alerts -->
+              <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="alertsDropdown">
+                <h6 class="dropdown-header">
+                  Team Member Requests
+                </h6>
+                <div class="dropdown-item  d-flex align-items-center" >
+                  <div class="mr-3">
+                    <div class="icon-circle bg-warning">
+                     <!--  <i class="fas fa-exclamation-triangle text-white"></i> -->
+                      <img class="img-profile rounded-circle" style="width: 45px; height: 45px;" src="https://home.lagility-tasks.com/wp-content/uploads/2019/06/IMG_5929.jpg">
+                    </div>
+                  </div>
+                  <div>
+                    <div class="small text-gray-500">Lazer Jan Caraan</div>
+                    <button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#whyacc">Accept</button>
+                                            <button class="btn btn-danger btn-sm" data-toggle="modal" data-target="#whydec">Decline</button>
+                  </div>
+                </div>
+
+                <div class="dropdown-item  d-flex align-items-center" >
+                  <div class="mr-3">
+                    <div class="icon-circle bg-warning">
+                     <!--  <i class="fas fa-exclamation-triangle text-white"></i> -->
+                      <img class="img-profile rounded-circle" style="width: 45px; height: 45px;" src="https://home.lagility-tasks.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-28-at-9.40.03-AM.jpeg">
+                    </div>
+                  </div>
+                  <div>
+                    <div class="small text-gray-500">Francisco U. Pineda</div>
+                    <button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#whyacc">Accept</button>
+                                            <button class="btn btn-danger btn-sm" data-toggle="modal" data-target="#whydec">Decline</button>
+                  </div>
+                </div>
+                <!-- <a class="dropdown-item text-center small text-gray-500" href="">Show All Alerts</a> -->
+              </div>
+            </li>
+ <!-- Nav Item - NOTIFICATIONS -->
+            <li class="nav-item dropdown no-arrow mx-1">
+              <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-bell fa-fw"></i>
+                <!-- Counter - Messages -->
+                <span class="badge badge-danger badge-counter">2</span>
+              </a>
+              <!-- Dropdown - Messages -->
+              <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="messagesDropdown">
+                <h6 class="dropdown-header">
+                Notifications
+                </h6>
+
+                <a class="dropdown-item dropdown-item-notification d-flex align-items-center" href="#">
+                  <div class="dropdown-list-image mr-3">
+                    <img class="rounded-circle" src="https://home.lagility-tasks.com/wp-content/uploads/2019/06/IMG_5929.jpg" style="width: 45px; height: 45px;" alt="">
+                    <div class="status-indicator bg-success"></div>
+                  </div>
+                  <div class="font-weight-bold">
+                    <div class="">Lazer Jan Caraan has accepted your request</div>
+                    <div class="small text-gray-500">June 18, 2019 2:39 PM </div>
+                  </div>
+                </a>
+                 <a class="dropdown-item d-flex align-items-center" href="#">
+                  <div class="dropdown-list-image mr-3">
+                    <img class="rounded-circle" src="https://home.lagility-tasks.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-28-at-9.40.03-AM.jpeg"  style="width: 45px; height: 45px;" alt="">
+                    <div class="status-indicator bg-success"></div>
+                  </div>
+                  <div class="font-weight-bold">
+                    <div class="">Francisco U. Pineda Iii has accepted your request</div>
+                    <div class="small text-gray-500">June 18, 2019 2:39 PM </div>
+                  </div>
+                </a>
+                <!-- <a class="dropdown-item text-center small text-gray-500" href="#">Read More Messages</a> -->
+              </div>
+            </li>
+              <li class="nav-item dropdown no-arrow mx-1">
+              <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-life-ring fa-fw"></i>
+              </a>
+        
+            </li>
+
+            <div class="topbar-divider d-none d-sm-block"></div>
+<!-- Nav Item - User Information -->
+            <li class="nav-item dropdown no-arrow">
+              <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Valerie Luna</span>
+                <img class="img-profile rounded-circle" src="https://source.unsplash.com/QAB-WJcbgJk/60x60">
+              </a>
+              <!-- Dropdown - User Information -->
+              <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
+                <a class="dropdown-item" href="#">
+                  <i class="fas fa-key fa-rotate-90 fa-sm fa-fw mr-2 text-gray-400"></i>
+                  Change Password
+                </a>
+                <a class="dropdown-item" href="#">
+                  <i class="fas fa-user-cog fa-sm fa-fw mr-2 text-gray-400"></i>
+                  Account Information
+                </a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+                  <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                  Logout
+                </a>
+              </div>
+            </li>
+
+          </ul>
+
+        </nav>
+        <!-- End of Topbar -->
+
+        <!-- Begin Page Content -->
+        <div class="container-fluid">
+
+          <!-- Page Heading -->
+          <div class="d-sm-flex align-items-center justify-content-between mb-4">
+            <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
+              <div class="btn-group">
+           <div class="btn-group">
+  <!-- <div class="dropdown dropdown-btn"> -->
+          <button type="button"
+            class="btn btn-outline-primary dropdown-toggle" data-toggle="dropdown" data-toggle="tooltip" title="Filter By Project">Projects
+            <span id="project_status"></span> <span
+              class="glyphicon glyphicon-cog"></span><span class="caret"></span></button>
+          <ul class="dropdown-menu text-delegation" width="100" id="project_ul">
+            <li><input type="text" class="form-control"
+                placeholder="Search" name=""></li>
+            <li>
+              <hr class="mt-1 mb-1">
+            </li>
+            <li class="bg-grey"><i class="ml-2 fa fa-check-square-o"></i><a
+                class="ml-2 defaultcursor">Select All</a></li>
+            <li class="bg-grey"><i
+                class="ml-2 fa fa-window-close-o"></i><a class="ml-2 defaultcursor">Deselect All</a>
+            </li>
+            <li>
+              <hr class="mt-1 mb-1">
+            </li>
+            <span id="list_project">
+              <li><i
+                  class="ml-2 fa fa-check filter_project"></i><a
+                  class="ml-2 defaultcursor"></a></li>
+            </span>
+          </ul>
+        <!-- </div> -->
+  </div>
+    <div class="btn-group">
+  <!-- <div class="dropdown dropdown-btn"> -->
+          <button type="button" class="btn btn-outline-primary dropdown-toggle" data-toggle="dropdown" title="Filter By Member"> Resources
+            <span id="resource_status"></span><span
+              class="glyphicon glyphicon-cog"></span><span class="caret"></span></button>
+          <ul class="dropdown-menu text-delegation">
+            <li class="search-nohvr"><input type="text" class="form-control" placeholder="Search"  name=""></li>
+            <li>
+              <hr>
+            </li>
+            <li class="bg-grey"><i class="ml-2 fa fa-check-square-o"></i><a
+                class="ml-2 defaultcursor">Select All</a></li>
+            <li class="bg-grey"><i
+                class="ml-2 fa fa-window-close-o"></i><a class="ml-2 defaultcursor">Deselect All</a>
+            </li>
+            <li>
+              <hr class="mt-1 mb-1">
+            </li>
+            <span id="list_resource">
+              <li style="text-overflow: ellipsis;"><i
+                  class="ml-2 fa fa-check filter_member"></i><a
+                  class="ml-2 defaultcursor">Lazer Caraan</a></li>
+            </span>
+          </ul>
+        <!-- </div> -->
+  </div>
+
+<div class="btn-group">
+  <!-- <div class="dropdown dropdown-btn"> -->
+          <button type="button"
+            class="btn btn-outline-primary dropdown-toggle" data-toggle="dropdown" title="Filter By State">State
+            <span id="state_status"></span><span
+              class="glyphicon glyphicon-cog"></span><span class="caret"></span></button>
+          <ul width="100" class="dropdown-menu text-delegation project_dropdown dropdownWithScroll" >
+            <li class="search-nohvr" ><input type="text" class="form-control" placeholder="Search" id="state_searchbox" name=""></li>
+            <li>
+              <hr>
+            </li>
+            <li class="bg-grey"><i class="ml-2 fa fa-check-square-o"></i><a
+                class="ml-2 defaultcursor">Select All</a></li>
+            <li class="bg-grey"><i
+                class="ml-2 fa fa-window-close-o"></i><a class="ml-2 defaultcursor">Deselect All</a>
+            </li>
+            <li>
+              <hr class="mt-1 mb-1">
+            </li>
+            <span id="list_state">
+              <li ng-repeat="get_state in get_states"><i
+                  class="ml-2 fa fa-check filter_state  filter_state{{get_state.status}}"></i><a
+                  class="ml-2 defaultcursor"></a></li>
+            </span>
+          </ul>
+        <!-- </div> -->
+  
+</div>
+</div>
+          </div>
+          <!-- Content Row -->
+          <div class="row">
+            <!-- Earnings (Monthly) Card Example -->
+            <div class="col-xl-4 col-md-6 mb-4">
+              <div class="card border-left-primary shadow h-100">
+                <div class="card-body">
+                  <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                      <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Team (Member)</div>
+                      <div class="h5 mb-0 font-weight-bold text-gray-800">9</div>
+                    </div>
+                    <div class="col-auto">
+                      <i class="fas fa-users fa-2x text-gray-300"></i>
+                    </div>
+                  </div>
+                   <a class="float-right mt-3" target="_blank" rel="nofollow" href="https://undraw.co/">Browse Report &rarr;</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Earnings (Monthly) Card Example -->
+            <div class="col-xl-4 col-md-6 mb-4">
+              <div class="card border-left-success shadow h-100 py-2">
+                <div class="card-body">
+                  <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                      <div class="text-xs font-weight-bold text-success text-uppercase mb-1">Tasks (Total)</div>
+                      <div class="h5 mb-0 font-weight-bold text-gray-800">78</div>
+                    </div>
+                    <div class="col"><div class="text-xs font-weight-bold text-success text-uppercase mb-1">Tasks (Selected)</div>
+                      <div class="h5 mb-0 font-weight-bold text-gray-800">55</div></div>
+                    <div class="col-auto">
+                      <i class="fas fa-tasks fa-2x text-gray-300"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+              <!-- Earnings (Monthly) Card Example -->
+            <div class="col-xl-4 col-md-6 mb-4">
+              <div class="card border-left-success shadow h-100 py-2">
+                <div class="card-body">
+                  <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                      <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Project (Total)</div>
+                      <div class="h5 mb-0 font-weight-bold text-gray-800">6</div>
+                    </div>
+                    <div class="col"><div class="text-xs font-weight-bold text-info text-uppercase mb-1">Project (Selected)</div>
+                      <div class="h5 mb-0 font-weight-bold text-gray-800">19</div></div>
+                    <div class="col-auto">
+                      <i class="fas fa-book fa-2x text-gray-300"></i>
+                    </div>
+                  </div>
+                   <a class="float-right mt-2" target="_blank" rel="nofollow" href="https://undraw.co/">Browse Report &rarr;</a>
+                </div>
+              </div>
+            </div> 
+          </div>
+          <!-- Content Row -->
+          <div class="row">
+               <!-- Pie Chart -->
+            <div class="col-xl-8 col-lg-5">
+              <div class="card shadow mb-4">
+                <!-- Card Header - Dropdown -->
+                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                  <h6 class="m-0 font-weight-bold text-primary">Team Member: 4</h6>
+                  <div class="dropdown no-arrow">
+                    <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
+                    <div class="dropdown-header">Reports</div>
+                      <a class="dropdown-item" href="#">Resource(2)</a>
+                      <a class="dropdown-item" href="#">Task Manager(9)</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Task Loading (0)</a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card Body -->
+                <div class="card-body">
+                  <div class="chart-pie pt-4 pb-2">
+        
+                    <canvas id="myAreaChart" height="55"></canvas>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Pie Chart -->
+            <div class="col-xl-4 col-lg-5">
+              <div class="card shadow mb-4">
+                <!-- Card Header - Dropdown -->
+                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                  <h6 class="m-0 font-weight-bold text-primary">Total Tasks: 55</h6>
+                  <div class="dropdown no-arrow">
+                    <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
+                      <div class="dropdown-header">Dropdown Header:</div>
+                      <a class="dropdown-item" href="#">Projects</a>
+                      <a class="dropdown-item" href="#">Inactive Tasks</a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card Body -->
+                <div class="card-body">
+                  <div class="chart-pie pt-4 pb-2">
+                    <div class="text-md font-weight-bold text-info text-uppercase mb-1">STATE</div>
+                    <canvas id="myPieChart" ></canvas>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Content Row -->
+          <div class="row">
+
+            <!-- Content Column -->
+        
+
+            <div class="col-lg-4 mb-4">
+
+              <!-- Illustrations -->
+              <div class="card shadow mb-4">
+                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                  <h6 class="m-0 font-weight-bold text-primary">Tasks Status: 1</h6>
+                   <div class="dropdown no-arrow">
+                    <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
+                      <div class="dropdown-header">Reports:</div>
+                      <a class="dropdown-item" href="#">Late Reports</a>
+                 
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body">
+                    <div class="chart-pie pt-4 pb-2">
+                    <canvas id="myPieChart-2"></canvas>
+                  </div>
+           
+                </div>
+              </div>
+
+
+            </div>
+
+              <div class="col-lg-8 mb-4">
+
+              <!-- Illustrations -->
+              <div class="card shadow mb-4">
+                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                  <h6 class="m-0 font-weight-bold text-primary">14 Day Utilization Schedule</h6>
+                   <div class="dropdown no-arrow">
+                    <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
+                      <div class="dropdown-header">Reports:</div>
+                      <a class="dropdown-item" href="#">Late Reports</a>
+                 
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body">
+            
+                    <div class="chart-pie pb-2">
+                    <canvas id="myBarChar222"></canvas>
+                    <div class="text-center mt-1 small">
+                    <span class="mr-4">
+                      <i class="fas fa-circle text-primary"></i> Total Working Hours: 0
+                    </span>
+                    <span class="mr-4">
+                      <i class="fas fa-circle text-success"></i> Total Available: 0
+                    </span>
+                    <span class="mr-4">
+                      <i class="fas fa-circle text-info"></i> Total Assigned: 0
+                    </span>
+                    <span class="mr-0">
+                      <i class="fas fa-circle " style="color: #99cc33;"></i> Assigned Percentage: 0%
+                    </span>
+                  </div>
+                  </div>
+           
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+
+        </div>
+        <!-- /.container-fluid -->
+
+      </div>
+      <!-- End of Main Content -->
+
+      <!-- Footer -->
+      <footer class="sticky-footer bg-white">
+        <div class="container my-auto">
+          <div class="copyright text-center my-auto">
+            <span>Wednesday, July 17, 2019 9:54 AM  UTC +08</span>
+          </div>
+        </div>
+      </footer>
+      <!-- End of Footer -->
+
+    </div>
+    <!-- End of Content Wrapper -->
+
+  </div>
+  <!-- End of Page Wrapper -->
+
+  <!-- Scroll to Top Button-->
+  <a class="scroll-to-top rounded" href="#page-top">
+    <i class="fas fa-angle-up"></i>
+  </a>
+
+  <!-- Logout Modal-->
+  <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+          <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+        <div class="modal-footer">
+          <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+          <a class="btn btn-primary" href="login.html">Logout</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap core JavaScript-->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Core plugin JavaScript-->
+  <script src="assets/js/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for all pages-->
+  <script src="assets/js/sb-admin-2.min.js"></script>
+
+  <!-- Page level plugins -->
+  <script src="assets/js/charts/Chart.min.js"></script>
+
+  <!-- Page level custom scripts -->
+  <script src="assets/js/charts/chart-area-demo.js"></script>
+  <script src="assets/js/charts/chart-pie-demo.js"></script>
+    <script src="assets/js/charts/chart-bar-demo.js"></script>
+
+</body>
+
+</html>
